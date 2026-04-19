@@ -564,6 +564,18 @@ body {
   font-size: 11px;
 }
 
+.impact-phrase {
+  background: var(--green-dark);
+  border-left: 4px solid var(--terra);
+  border-radius: 0 8px 8px 0;
+  padding: 20px 28px;
+  margin-top: 32px;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: var(--green-light);
+  font-style: italic;
+}
+
 /* ── FAQ ────────────────────────────────────────────── */
 .faq {
   padding: 64px 0;
@@ -723,7 +735,7 @@ footer {
 
 <!-- BARRA TOPO -->
 <div class="top-bar">
-  🔥 Oferta especial de lançamento &nbsp;<span>Acesso imediato após a compra</span>
+  🔥 Preço promocional de lançamento — por tempo limitado &nbsp;<span>| Acesso imediato após a compra</span>
 </div>
 
 <!-- HERO -->
@@ -732,17 +744,16 @@ footer {
   <div class="hero-accent"></div>
   <div class="container">
     <div class="hero-content fade-in">
-      <div class="hero-badge">Guia Prático Completo</div>
-      <h1>Tecido<br><em>Certo</em></h1>
+      <div class="hero-badge">Guia Prático — Confeccionista Iniciante</div>
+      <h1>Como escolher o<br><em>tecido certo</em><br>e evitar prejuízo</h1>
       <p class="hero-subtitle">
-        Como escolher o tecido ideal e <strong>evitar prejuízo na confecção.</strong><br>
-        O guia prático para confeccionistas iniciantes que querem produzir com qualidade desde a primeira compra.
+        Pare de comprar errado, produzir peças que não vendem e perder dinheiro.<br>
+        <strong>Aprenda a comprar certo desde a primeira vez e produza com qualidade.</strong>
       </p>
       <a href="https://pay.kiwify.com.br/vnYmlGR" class="hero-cta" onclick="fbq('track','InitiateCheckout')">
-        Quero o guia agora
-        <span class="hero-cta-arrow">→</span>
+        Quero escolher o tecido certo →
       </a>
-      <p class="hero-guarantee">Pagamento 100% seguro · Acesso imediato</p>
+      <p class="hero-guarantee">🔒 7 dias de garantia — ou seu dinheiro de volta</p>
     </div>
     <div class="hero-mockup fade-in" style="animation-delay:.2s">
       <img src="capa_tecido_certo_v3.png" alt="Tecido Certo — O Guia do Confeccionista Iniciante">
@@ -781,6 +792,16 @@ footer {
         Isso acontece porque <strong>nenhum fornecedor te ensina a escolher</strong> — eles só querem vender metro. Este guia é o que deveria ter chegado antes da sua primeira compra.
       </p>
     </div>
+
+    <div class="impact-phrase fade-in">
+      "Erro no tecido não aparece na compra — aparece no prejuízo."
+    </div>
+
+    <div style="text-align:center;margin-top:32px" class="fade-in">
+      <a href="https://pay.kiwify.com.br/vnYmlGR" class="hero-cta" style="display:inline-flex" onclick="fbq('track','InitiateCheckout')">
+        Quero parar de errar no tecido →
+      </a>
+    </div>
   </div>
 </section>
 
@@ -799,8 +820,7 @@ footer {
         <li>Produza peças que o cliente quer comprar de novo</li>
       </ul>
     </div>
-    <div class="solucao-visual fade-in">
-      <div class="cap-list">
+    <div class="solucao-visual fade-in">      <div class="cap-list">
         <div class="cap-item"><div class="cap-num">1</div> Os Grupos de Tecidos e Fibras</div>
         <div class="cap-item"><div class="cap-num">2</div> Moda Fitness — qual tecido aguenta</div>
         <div class="cap-item"><div class="cap-num">3</div> Moda Praia — cor que não desbota</div>
@@ -812,6 +832,43 @@ footer {
         <div class="cap-item cap-bonus"><div class="cap-num">+</div> Bônus: tabela tecido × segmento</div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- AUTORIDADE -->
+<section style="background:var(--bege);padding:56px 0;border-top:1px solid var(--bege-dark)">
+  <div class="container">
+    <div style="max-width:700px;margin:0 auto;text-align:center" class="fade-in">
+      <div style="width:64px;height:4px;background:var(--terra);margin:0 auto 28px;border-radius:2px"></div>
+      <h2 style="font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,32px);color:var(--green-dark);margin-bottom:20px">
+        Esse guia foi criado por quem vive isso todos os dias
+      </h2>
+      <p style="font-size:16px;color:var(--gray);line-height:1.8;margin-bottom:16px">
+        Não é teoria acadêmica. É o que quem trabalha diariamente com tecidos, fornecedores e confeccionistas aprendeu na prática — depois de ver centenas de compras erradas, devoluções e prejuízos que poderiam ter sido evitados com a informação certa.
+      </p>
+      <p style="font-size:16px;color:var(--gray);line-height:1.8;margin-bottom:28px">
+        <strong style="color:var(--green-dark)">Cliente não entende de tecido, mas sente quando é ruim.</strong> E quando sente, não volta. Este guia existe para que você nunca mais passe por isso.
+      </p>
+      <div style="background:var(--green-dark);border-radius:10px;padding:20px 28px;display:inline-block">
+        <p style="color:var(--green-light);font-size:14px;font-weight:700;margin:0">
+          Experiência real · Linguagem simples · Aplicação imediata
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA MEIO DE PÁGINA -->
+<section style="background:var(--terra);padding:40px 0;text-align:center">
+  <div class="container">
+    <p style="color:white;font-size:18px;font-weight:700;margin-bottom:16px">
+      R$ 19,90 que podem te salvar de muito mais prejuízo
+    </p>
+    <a href="https://pay.kiwify.com.br/vnYmlGR" onclick="fbq('track','InitiateCheckout')"
+       style="display:inline-flex;align-items:center;gap:10px;background:white;color:var(--terra);font-size:16px;font-weight:800;padding:16px 36px;border-radius:6px;text-decoration:none;transition:transform .15s">
+      Quero escolher o tecido certo →
+    </a>
+    <p style="color:rgba(255,255,255,.7);font-size:12px;margin-top:12px">🔒 Garantia de 7 dias — risco zero</p>
   </div>
 </section>
 
@@ -841,6 +898,11 @@ footer {
         <p>Cansada de comprar tecido errado e ter prejuízo na produção</p>
       </div>
     </div>
+    <div style="text-align:center;margin-top:36px" class="fade-in">
+      <a href="https://pay.kiwify.com.br/vnYmlGR" class="hero-cta" style="display:inline-flex" onclick="fbq('track','InitiateCheckout')">
+        Quero o guia agora →
+      </a>
+    </div>
   </div>
 </section>
 
@@ -866,11 +928,11 @@ footer {
         <div class="preco-valor"><sup>R$</sup>19<span style="font-size:32px;vertical-align:middle">,90</span></div>
         <p class="preco-desc">Pagamento único · <strong>Acesso imediato</strong></p>
         <a href="https://pay.kiwify.com.br/vnYmlGR" class="btn-comprar" onclick="fbq('track','AddToCart')">
-          Quero o guia agora →
+          Quero escolher o tecido certo →
         </a>
         <div class="garantia">
           <span class="garantia-icon">🛡️</span>
-          <p class="garantia-text"><strong>Garantia de 7 dias.</strong> Se não gostar, devolvemos 100% do valor sem perguntas.</p>
+          <p class="garantia-text"><strong>Garantia de 7 dias — risco zero.</strong> Se não gostar, devolvemos 100% do valor sem perguntas.</p>
         </div>
         <div class="pagamentos">
           Pagamento seguro via
@@ -931,11 +993,11 @@ footer {
 <section class="cta-final">
   <div class="container">
     <h2 class="fade-in">Escolha melhor.<br><em>Produza com qualidade.</em><br>Venda mais.</h2>
-    <p class="fade-in">Desde a primeira compra de tecido.</p>
+    <p class="fade-in">Desde a primeira compra de tecido. Sem depender do que o fornecedor te indica.</p>
     <a href="https://pay.kiwify.com.br/vnYmlGR" class="cta-final-btn fade-in" onclick="fbq('track','InitiateCheckout')">
-      Quero o Tecido Certo agora →
+      Quero escolher o tecido certo →
     </a>
-    <p class="cta-final-price">Por apenas <strong>R$ 19,90</strong> · Acesso imediato · Garantia de 7 dias</p>
+    <p class="cta-final-price">Por apenas <strong>R$ 19,90</strong> · Acesso imediato · 🔒 Garantia de 7 dias</p>
   </div>
 </section>
 
